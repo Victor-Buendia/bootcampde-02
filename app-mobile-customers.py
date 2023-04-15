@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 numEvents = 100
 
 # Carrega as variáveis de ambiente do arquivo .env
-load_dotenv()
+load_dotenv('.env.dev')
 
 # Define classe de codificação personalizada
 class CustomEncoder(json.JSONEncoder):

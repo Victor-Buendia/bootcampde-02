@@ -92,7 +92,7 @@ def randomData(cur, conn, numClients):
 fake = Faker(locale='pt_BR')
 
 # Carrega as variáveis de ambiente do arquivo .env
-load_dotenv()
+load_dotenv('.env.dev')
 
 # Conecta ao banco de dados PostgreSQL
 conn = psycopg2.connect(
