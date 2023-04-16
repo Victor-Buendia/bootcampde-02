@@ -329,6 +329,7 @@ terraform apply
 terraform destroy
 ```
 
+<<<<<<< HEAD
 ## Delta tables
 
  - Enforcement Schema
@@ -415,3 +416,5 @@ terraform apply
 terraform destroy
 ```
 
+=======
+>>>>>>> 1e0d0fc5a4d418993e1ff1401f88111e0da5a72d
